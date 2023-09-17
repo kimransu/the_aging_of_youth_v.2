@@ -1,0 +1,169 @@
+#loading {
+  color: white;
+  /* font-size: clamp(2em, 2vw, 4em); */
+  font-size: 1.875rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.age-fade-out {
+  animation: fadeout 2s;
+  -moz-animation: fadeout 2s;
+  -webkit-animation: fadeout 2s;
+  -o-animation: fadeout 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.text {
+  display: block;
+  /* font-size: clamp(0.5em, 2vw, 4em); */
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/* 스크롤스냅처리 시작 */
+#scrollWrap {
+  display: none;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+#scrollWrap.scroll-wrap-show {
+  display: block !important;
+}
+
+.scroll-page {
+  scroll-snap-align: start;
+}
+/* 스크롤스냅처리 끝 */
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  background-size: 100%;
+  animation: pan-image 15s linear infinite;
+}
+
+@keyframes pan-image {
+  0% {
+    background-position: 36% 42%;
+    background-size: 100%;
+  }
+
+  20% {
+    background-position: 30% 35%;
+    background-size: 100%;
+  }
+
+  20.0001% {
+    /* -- View 2 -- */
+    background-position: 60% 85%;
+    background-size: 150%;
+  }
+
+  40% {
+    background-position: 49% 81%;
+    background-size: 150%;
+  }
+
+  40.0001% {
+    /* -- View 3 -- */
+    background-position: 80% 42%;
+    background-size: 110%;
+  }
+
+  60% {
+    background-position: 84% 33%;
+    background-size: 110%;
+  }
+
+  60.0001% {
+    /* -- View 4 -- */
+    background-position: 0% 0%;
+    background-size: 110%;
+  }
+
+  80% {
+    background-position: 15% 4%;
+    background-size: 110%;
+  }
+
+  80.0001% {
+    /* -- View 5 -- */
+    background-position: 80% 10%;
+    background-size: 110%;
+  }
+
+  100% {
+    background-position: 72% 14%;
+    background-size: 110%;
+  }
+}
+
+#blackFilter {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(10, 10, 10, 0.7);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+#mainTitle {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+#scrollDown {
+  position: absolute;
+  justify-content: center;
+  bottom: 3.25rem;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0);
+  cursor: pointer;
+  background-color: rgb(10, 10, 10, 0);
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 1.25rem;
+  font-weight: 300;
+  /* visibility: hidden; */
+}
+
+.main-show {
+  display: block !important;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.d-none {
+  display: none;
+}

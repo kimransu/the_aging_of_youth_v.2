@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>젊음의 늙음</title>
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/intro.css" />
+    <link rel="stylesheet" href="./css/work.css" />
+    <link rel="stylesheet" href="./css/img-card.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <h1 id="value" full-age="100">0</h1>
+      <span class="text">Getting older..</span>
+    </div>
+    <div id="scrollWrap">
+      <div id="main" class="scroll-page">
+        <div id="blackFilter">
+          <h1 id="mainTitle" data-value="젊음의 늙음">젊음의 늙음</h1>
+          <button id="scrollDown">Scroll down</button>
+        </div>
+      </div>
+      <div id="workAboutWrap" class="scroll-page">
+        <div id="gallery">
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+        </div>
+        <div id="about">
+          <div id="aboutContents">
+            <h1 id="aboutTitle">언젠가는 모두 노인이 된다.</h1>
+            <div id="aboutTxt">
+              2023년 현시점 젊은이인 우리들은 어떤 모습의 노인이 될지 상상해 본
+              적이 있는가? 지금 즐기는 문화 및 습관들을 그대로 간직한 채
+              늙는다면 그 모습은 어떨까? 온라인에 산재되어 있는 젊은 세대의
+              이미지를 학습한 AI를 활용하여 ‘노화’를 덧붙여서 이미지를 생성하고
+              수집해 보았다.
+            </div>
+            <div id="smallTxtBox">
+              <span id="smallTitle">
+                Work with
+                <br />
+              </span>
+              image processing
+              <span class="boldTxt">
+                Microsoft Bing
+                <br />
+              </span>
+              image retouch
+              <span class="boldTxt">Adobe Firefly & Photoshop</span>
+            </div>
+          </div>
+        </div>
+        <div id="gnbBar">
+          <ul id="gnb">
+            <li class="menu nav-menu work-btn">Gallery</li>
+            <li class="menu nav-menu about-btn">About</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-card">
+      <i
+        class="go-left fa-solid fa-chevron-left fa-10x"
+        onclick="goLeft(this);"></i>
+      <div class="card">
+        <div class="card-img">
+          <div class="gallery-filter">
+            <i id="imgBtn" class="fa fa-rotate fa-2x"></i>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="info-img"></div>
+          <div class="txt-box">
+            <h1 class="tag">
+              #봄봄봄 #봄인가봄 #벚꽃놀이 #벚꽃셀카 #벚꽃원피스 #봄코디룩
+            </h1>
+            <p class="prompt">
+              An korean old female looks like 70, wearing a light yellow and
+              white flower-patterned sleeveless dress, a short cardigan, white
+              Flat shoes, black Mini shoulder bag, with a wavy brown hair, In
+              front of a cherry tree with falling cherry blossom petals, posing
+              with the head turned
+            </p>
+          </div>
+          <i id="infoBtn" class="fa fa-rotate fa-2x"></i>
+        </div>
+      </div>
+      <i
+        class="go-right fa-solid fa-chevron-right fa-10x"
+        onclick="goRight(this)"></i>
+      <div class="esc-guide">닫기를 원할경우 'ESC' 버튼을 눌러주세요</div>
+    </div>
+
+    <div class="overay hidden"></div>
+
+    <script src="./js/image-info.js"></script>
+    <script src="./js/intro.js"></script>
+    <script src="./js/hacker-txt.js"></script>
+    <script src="./js/img-card.js"></script>
+    <script src="./js/nav.js"></script>
+  </body>
+</html>

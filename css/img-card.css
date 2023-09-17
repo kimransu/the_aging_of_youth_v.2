@@ -1,0 +1,132 @@
+.gallery-card {
+  position: absolute;
+  z-index: 3;
+  perspective: 1100px;
+  display: none;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-show {
+  display: flex !important;
+}
+
+.go-left,
+.go-right {
+  color: white;
+  opacity: 0.3;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.gallery-card > .card {
+  width: 41.5rem;
+  height: 41.5rem;
+  position: relative;
+  transition: 0.4s;
+  transform-style: preserve-3d;
+}
+
+.card-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-filter {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    125deg,
+    rgba(10, 10, 10, 0) 85%,
+    rgba(10, 10, 10, 15) 100%
+  );
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.gallery-filter > i {
+  color: white;
+  opacity: 0.5;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.card-flip {
+  transform: rotateY(180deg);
+}
+
+.card-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: white;
+}
+
+.info-img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 7rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 80px auto 40px;
+}
+
+.txt-box {
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.txt-box > .tag {
+  margin-bottom: 20px;
+}
+
+.txt-box > .prompt {
+  font-size: 1.125rem;
+  color: #999;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.card-info > i {
+  color: #0a0a0a;
+  opacity: 0.2;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.esc-guide {
+  display: none;
+  color: #aaa;
+  position: absolute;
+  z-index: 3;
+  top: 103%;
+  left: 36%;
+}
+
+.esc-show {
+  display: block;
+}
+
+.overay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}

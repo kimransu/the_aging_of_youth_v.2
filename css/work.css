@@ -1,0 +1,201 @@
+#workAboutWrap {
+  width: 100vw;
+  background-color: pink;
+  position: relative;
+}
+
+#gnbBar {
+  width: 100vw;
+  position: absolute;
+  z-index: 3;
+}
+
+#gnb {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 3rem 0rem;
+  gap: 8vmin;
+}
+
+#gnb .menu {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.nav-menu {
+  color: rgb(200, 200, 200, 0.5);
+  font-weight: 400;
+}
+
+.selected {
+  color: rgb(200, 200, 200, 1) !important;
+  font-weight: 500 !important;
+}
+
+#gallery {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+  background-color: #0a0a0a;
+  overflow: hidden;
+}
+
+#gallery.screen-up {
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 1000ms ease-out, z-index 0ms 900ms;
+}
+
+.tile {
+  position: absolute;
+  transform: scale(1);
+  transition: transform 400ms ease;
+  opacity: 0.9;
+}
+
+.tile.scale-zero {
+  transform: scale(0);
+  transition: transform 400ms ease;
+}
+
+.tile:hover {
+  transform: scale(1.5);
+  transition: transform 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.tile:nth-child(-n + 7) {
+  width: 7vmin;
+  height: 7vmin;
+}
+.tile:nth-child(n + 7):nth-child(-n + 15) {
+  width: 10vmin;
+  height: 10vmin;
+}
+.tile:nth-child(n + 16) {
+  width: 14vmin;
+  height: 14vmin;
+}
+
+.tile:nth-child(1) {
+  top: 15%;
+  left: 18%;
+}
+
+.tile:nth-child(2) {
+  top: 26%;
+  left: 48%;
+}
+
+.tile:nth-child(3) {
+  top: 58%;
+  left: 30%;
+}
+
+.tile:nth-child(4) {
+  top: 64%;
+  left: 48%;
+}
+
+.tile:nth-child(5) {
+  top: 54%;
+  left: 78%;
+}
+
+.tile:nth-child(6) {
+  top: 87%;
+  left: 80%;
+}
+
+.tile:nth-child(7) {
+  top: 22%;
+  left: 36%;
+}
+
+.tile:nth-child(8) {
+  top: 32%;
+  left: 56%;
+}
+
+.tile:nth-child(9) {
+  top: 26%;
+  left: 76%;
+}
+
+.tile:nth-child(10) {
+  top: 45%;
+  left: 8%;
+}
+
+.tile:nth-child(11) {
+  top: 43%;
+  left: 40%;
+}
+
+.tile:nth-child(12) {
+  top: 42%;
+  left: 86%;
+}
+
+.tile:nth-child(13) {
+  top: 68%;
+  left: 18%;
+}
+
+.tile:nth-child(14) {
+  top: 72%;
+  left: 56%;
+}
+
+.tile:nth-child(15) {
+  top: 78%;
+  left: 28%;
+}
+
+.tile:nth-child(16) {
+  top: 18%;
+  left: 4%;
+}
+
+.tile:nth-child(17) {
+  top: 18%;
+  left: 65%;
+}
+
+.tile:nth-child(18) {
+  top: 16%;
+  left: 90%;
+}
+
+.tile:nth-child(19) {
+  top: 33%;
+  left: 20%;
+}
+
+.tile:nth-child(20) {
+  top: 50%;
+  left: 66%;
+}
+
+.tile:nth-child(21) {
+  top: 78%;
+  left: 4%;
+}
+
+.tile:nth-child(22) {
+  bottom: 4%;
+  left: 40%;
+}
+
+.tile:nth-child(23) {
+  top: 78%;
+  left: 68%;
+}
+
+.tile:nth-child(24) {
+  top: 72%;
+  left: 90%;
+}

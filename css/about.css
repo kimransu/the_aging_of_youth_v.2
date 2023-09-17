@@ -1,0 +1,53 @@
+#about {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a0a0a;
+  opacity: 1;
+}
+
+#about.screen-fade-out {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+}
+
+#aboutContents {
+  width: 62.5rem;
+  margin: 20rem auto 0;
+  color: #eee;
+}
+
+#aboutTitle {
+  font-size: 5.75rem;
+  text-align: center;
+}
+
+#aboutTxt {
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 3rem 0 10rem;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -0.03rem;
+}
+
+#smallTxtBox {
+  text-align: right;
+  font-size: 1.125rem;
+  font-weight: 200;
+  letter-spacing: 0.03rem;
+  color: #999;
+}
+
+#smallTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.boldTxt {
+  font-weight: 400;
+}
