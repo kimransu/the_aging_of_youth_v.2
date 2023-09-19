@@ -91,6 +91,7 @@
   font-size: 1.75rem;
   font-weight: 600;
   font-family: 'Pretendard';
+  line-height: 130%;
 }
 
 .txt-box > .prompt {

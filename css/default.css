@@ -17,7 +17,7 @@ body {
   width: 100vw;
   height: 100vh;
   place-items: center;
-  /* overflow: hidden; */
+  overflow-x: hidden;
   font-family: 'Pretendard-Regular', 'sans-serif', 'arial', '맑은고딕';
 }
 
