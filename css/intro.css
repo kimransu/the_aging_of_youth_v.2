@@ -2,8 +2,9 @@
   color: white;
   /* font-size: clamp(2em, 2vw, 4em); */
   font-size: 1.875rem;
-  font-weight: 400;
+  font-weight: 900;
   text-align: center;
+  font-family: 'Pretendard';
 }
 
 .age-fade-out {
@@ -26,8 +27,10 @@
 .text {
   display: block;
   /* font-size: clamp(0.5em, 2vw, 4em); */
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 1.25rem;
   font-weight: 200;
+  font-family: 'Pretendard';
 }
 
 /* 스크롤스냅처리 시작 */
@@ -130,6 +133,8 @@
   color: white;
   font-size: 5rem;
   text-align: center;
+  font-family: 'Pretendard';
+  font-weight: 900;
 }
 
 #scrollDown {
@@ -138,11 +143,13 @@
   bottom: 3.25rem;
   outline: none;
   border: 1px solid rgb(0, 0, 0, 0);
-  cursor: pointer;
+  /* cursor: pointer; */
   background-color: rgb(10, 10, 10, 0);
   color: rgb(255, 255, 255, 0.7);
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
+  font-family: 'Pretendard';
+  letter-spacing: 0.2px;
   /* visibility: hidden; */
 }
 

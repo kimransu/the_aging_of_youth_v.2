@@ -17,10 +17,12 @@
   list-style: none;
   padding: 3rem 0rem;
   gap: 8vmin;
+  font-family: 'Pretendard';
+  letter-spacing: 0.2px;
 }
 
 #gnb .menu {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   cursor: pointer;
 }
 
@@ -32,6 +34,7 @@
 .selected {
   color: rgb(200, 200, 200, 1) !important;
   font-weight: 500 !important;
+  /* transition: all 200ms; */
 }
 
 #gallery {

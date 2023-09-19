@@ -1,8 +1,8 @@
 // 1. 갤러리타일 클릭시 갤러리카드 등장 + 갤러리페이지 블러처리
 const imgTiles = document.querySelectorAll('.tile');
 const imgCardScreen = document.querySelector('.gallery-card');
-const imgBtn = document.querySelector('#imgBtn');
-const infoBtn = document.querySelector('#infoBtn');
+const imgBtn = document.querySelector('.img-btn');
+const infoBtn = document.querySelector('.info-btn');
 const card = document.querySelector('.card');
 const escGuide = document.querySelector('.esc-guide');
 const bgOveray = document.querySelector('.overay');

@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>젊음의 늙음</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/intro.css" />
     <link rel="stylesheet" href="./css/work.css" />
@@ -85,13 +89,15 @@
       </div>
     </div>
     <div class="gallery-card">
-      <i
-        class="go-left fa-solid fa-chevron-left fa-10x"
-        onclick="goLeft(this);"></i>
+      <img
+        class="go-left"
+        onclick="goLeft(this);"
+        src="./images/left_btn.png"
+        alt="" />
       <div class="card">
         <div class="card-img">
-          <div class="gallery-filter">
-            <i id="imgBtn" class="fa fa-rotate fa-2x"></i>
+          <div class="btn-circle img-btn">
+            <img src="./images/txt_btn.png" alt="" />
           </div>
         </div>
         <div class="card-info">
@@ -108,12 +114,16 @@
               with the head turned
             </p>
           </div>
-          <i id="infoBtn" class="fa fa-rotate fa-2x"></i>
+          <div class="btn-circle info-btn">
+            <img src="./images/pic_btn.png" alt="" />
+          </div>
         </div>
       </div>
-      <i
-        class="go-right fa-solid fa-chevron-right fa-10x"
-        onclick="goRight(this)"></i>
+      <img
+        class="go-right"
+        onclick="goRight(this)"
+        src="./images/right_btn.png"
+        alt="" />
       <div class="esc-guide">닫기를 원할경우 'ESC' 버튼을 눌러주세요</div>
     </div>
 

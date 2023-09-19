@@ -3,6 +3,14 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-color: #0a0a0a;
   display: grid;
@@ -10,6 +18,7 @@ body {
   height: 100vh;
   place-items: center;
   /* overflow: hidden; */
+  font-family: 'Pretendard-Regular', 'sans-serif', 'arial', '맑은고딕';
 }
 
 .font-3rem {

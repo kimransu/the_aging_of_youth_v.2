@@ -23,6 +23,8 @@
 #aboutTitle {
   font-size: 5.75rem;
   text-align: center;
+  font-family: 'Pretendard';
+  font-weight: 600;
 }
 
 #aboutTxt {
@@ -31,6 +33,7 @@
   line-height: 2.5rem;
   margin: 3rem 0 10rem;
   text-align: center;
+  font-family: 'Pretendard';
   font-weight: 400;
   letter-spacing: -0.03rem;
 }
@@ -40,14 +43,18 @@
   font-size: 1.125rem;
   font-weight: 200;
   letter-spacing: 0.03rem;
+  line-height: 150%;
   color: #999;
+  font-family: 'Pretendard';
 }
 
 #smallTitle {
   font-size: 1.5rem;
   font-weight: 400;
+  font-family: 'Pretendard';
 }
 
 .boldTxt {
   font-weight: 400;
+  font-family: 'Pretendard';
 }
