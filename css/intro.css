@@ -32,25 +32,26 @@
   font-weight: 200;
   font-family: 'Pretendard';
 }
-/* 스크롤스냅처리 시작 */
-#scrollWrap {
-  display: none;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-  position: relative;
-  z-index: 1;
-}
+@media all and (min-width: 481px) {
+  /* 스크롤스냅처리 시작 */
+  #scrollWrap {
+    display: none;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+  }
 
-#scrollWrap.scroll-wrap-show {
-  display: block !important;
-}
+  #scrollWrap.scroll-wrap-show {
+    display: block !important;
+  }
 
-.scroll-page {
-  scroll-snap-align: start;
+  .scroll-page {
+    scroll-snap-align: start;
+  }
+  /* 스크롤스냅처리 끝 */
 }
-/* 스크롤스냅처리 끝 */
-
 #main {
   width: 100vw;
   height: 100vh;

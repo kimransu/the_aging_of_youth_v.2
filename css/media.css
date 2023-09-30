@@ -296,4 +296,12 @@
   .card-info > .btn-circle {
     margin: 0 10px 10px 0;
   }
+
+  /* 스크롤스냅처리 시작 */
+  #scrollWrap {
+    display: none;
+  }
+  #scrollWrap.scroll-wrap-show {
+    display: block !important;
+  }
 }
