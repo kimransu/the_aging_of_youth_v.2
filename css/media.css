@@ -312,10 +312,10 @@
 
   .gallery-card {
     position: relative;
-    /* top: 400; */
+    top: 30;
   }
   .overay {
     position: relative;
-    /* top: 400; */
+    top: 30;
   }
 }
