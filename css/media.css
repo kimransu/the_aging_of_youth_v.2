@@ -311,11 +311,11 @@
   }
 
   .gallery-card {
-    position: fixed;
-    top: 400;
+    position: relative;
+    /* top: 400; */
   }
   .overay {
-    position: fixed;
-    top: 400;
+    position: relative;
+    /* top: 400; */
   }
 }
