@@ -306,6 +306,7 @@
   #scrollWrap {
     display: none;
     position: relative;
+    top: 100vh;
     z-index: 1;
   }
   #scrollWrap.scroll-wrap-show {
@@ -314,18 +315,9 @@
 
   .gallery-card {
     /* position: absolute; */
-    top: 200;
+    /* bottom: 200; */
   }
-  /* .overay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(3px);
-    z-index: 1;
-  } */
+  .overay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
