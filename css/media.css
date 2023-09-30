@@ -87,6 +87,11 @@
     font-weight: 900;
   }
 
+  .tile:hover {
+    transform: scale(1);
+    transition: none;
+  }
+
   .tile:nth-child(-n + 13) {
     width: 3.75rem;
     height: 3.75rem;
@@ -96,8 +101,8 @@
     height: 5rem;
   }
   .tile:nth-child(n + 20) {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 5.65rem;
+    height: 5.65rem;
   }
 
   .tile:nth-child(1) {
@@ -306,7 +311,7 @@
   }
 
   .gallery-card {
-    position: absolute;
+    position: fixed;
     top: 200;
   }
 }
