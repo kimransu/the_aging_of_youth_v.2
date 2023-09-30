@@ -306,7 +306,6 @@
   #scrollWrap {
     display: none;
     position: relative;
-    top: 100vh;
     z-index: 1;
   }
   #scrollWrap.scroll-wrap-show {
@@ -315,7 +314,7 @@
 
   .gallery-card {
     /* position: absolute; */
-    /* bottom: 200; */
+    top: 100vh;
   }
   .overay {
     background-color: rgba(0, 0, 0, 0.7);
