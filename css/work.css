@@ -70,7 +70,8 @@
   cursor: pointer;
 }
 
-.tile:nth-child(-n + 7) {
+/* min-width 추가  */
+/* .tile:nth-child(-n + 7) {
   width: 7vmin;
   height: 7vmin;
 }
@@ -81,6 +82,20 @@
 .tile:nth-child(n + 16) {
   width: 14vmin;
   height: 14vmin;
+} */
+@media all and (min-width: 481px) {
+  .tile:nth-child(-n + 7) {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+  .tile:nth-child(n + 7):nth-child(-n + 15) {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .tile:nth-child(n + 16) {
+    width: 9.375rem;
+    height: 9.375rem;
+  }
 }
 
 .tile:nth-child(1) {

@@ -1,0 +1,299 @@
+@media all and (max-width: 480px) {
+  #loading {
+    font-size: 1.875rem;
+  }
+  .text {
+    font-size: 1.25rem;
+  }
+
+  #main {
+    background-size: 300%;
+    animation: pan-image 15s linear infinite;
+  }
+
+  @keyframes pan-image {
+    0% {
+      background-position: 36% 42%;
+      background-size: 300%;
+    }
+
+    20% {
+      background-position: 30% 35%;
+      background-size: 300%;
+    }
+
+    20.0001% {
+      /* -- View 2 -- */
+      background-position: 60% 85%;
+      background-size: 350%;
+    }
+
+    40% {
+      background-position: 49% 81%;
+      background-size: 350%;
+    }
+
+    40.0001% {
+      /* -- View 3 -- */
+      background-position: 80% 42%;
+      background-size: 310%;
+    }
+
+    60% {
+      background-position: 84% 33%;
+      background-size: 310%;
+    }
+
+    60.0001% {
+      /* -- View 4 -- */
+      background-position: 0% 0%;
+      background-size: 310%;
+    }
+
+    80% {
+      background-position: 15% 4%;
+      background-size: 310%;
+    }
+
+    80.0001% {
+      /* -- View 5 -- */
+      background-position: 80% 10%;
+      background-size: 310%;
+    }
+
+    100% {
+      background-position: 72% 14%;
+      background-size: 310%;
+    }
+  }
+
+  #mainTitle {
+    font-size: 2.6rem;
+  }
+  #scrollDown {
+    font-size: 1rem;
+  }
+  #gnb {
+    padding: 2rem 0rem;
+    gap: 30vmin;
+  }
+  #gnb .menu {
+    font-size: 1rem;
+  }
+
+  .tile {
+    color: red;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .tile:nth-child(-n + 13) {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+  .tile:nth-child(n + 13):nth-child(-n + 19) {
+    width: 5rem;
+    height: 5rem;
+  }
+  .tile:nth-child(n + 20) {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+
+  .tile:nth-child(1) {
+    top: 19%;
+    left: 44%;
+  }
+
+  .tile:nth-child(2) {
+    top: 20%;
+    left: 86%;
+  }
+
+  .tile:nth-child(3) {
+    top: 30%;
+    left: 2%;
+  }
+
+  .tile:nth-child(4) {
+    top: 42%;
+    left: 54%;
+  }
+
+  .tile:nth-child(5) {
+    top: 51%;
+    left: 34%;
+  }
+
+  .tile:nth-child(6) {
+    top: 46%;
+    left: 78%;
+  }
+
+  .tile:nth-child(7) {
+    top: 54%;
+    left: 0%;
+  }
+
+  .tile:nth-child(8) {
+    top: 63%;
+    left: 85%;
+  }
+
+  .tile:nth-child(9) {
+    top: 72%;
+    left: 6%;
+  }
+
+  .tile:nth-child(10) {
+    top: 74%;
+    left: 72%;
+  }
+
+  .tile:nth-child(11) {
+    top: 83%;
+    left: 52%;
+  }
+
+  .tile:nth-child(12) {
+    top: 92%;
+    left: 26%;
+  }
+
+  .tile:nth-child(13) {
+    top: 14%;
+    left: 66%;
+  }
+
+  .tile:nth-child(14) {
+    top: 32%;
+    left: 30%;
+  }
+
+  .tile:nth-child(15) {
+    top: 28%;
+    left: 58%;
+  }
+
+  .tile:nth-child(16) {
+    top: 34%;
+    left: 77%;
+  }
+
+  .tile:nth-child(17) {
+    top: 52%;
+    left: 60%;
+  }
+
+  .tile:nth-child(18) {
+    top: 60%;
+    left: 15%;
+  }
+
+  .tile:nth-child(19) {
+    top: 74%;
+    left: 30%;
+  }
+
+  .tile:nth-child(20) {
+    top: 15%;
+    left: 3%;
+  }
+
+  .tile:nth-child(21) {
+    top: 40%;
+    left: 10%;
+  }
+
+  .tile:nth-child(22) {
+    bottom: 24%;
+    left: 48%;
+  }
+
+  .tile:nth-child(23) {
+    top: 86%;
+    left: -5%;
+  }
+
+  .tile:nth-child(24) {
+    top: 84%;
+    left: 75%;
+  }
+
+  #aboutContents {
+    width: 87%;
+    margin: 18rem auto 0;
+    /* background-color: red; */
+  }
+
+  #aboutTitle {
+    /* font-size: 5.75rem; */
+    font-size: 2rem;
+  }
+
+  #aboutTxt {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: left;
+  }
+
+  #smallTxtBox {
+    font-size: 0.75rem;
+  }
+
+  #smallTitle {
+    font-size: 1rem;
+  }
+
+  .go-left,
+  .go-right {
+    margin: 0 1rem;
+    width: 6%;
+    /* background-color: red; */
+  }
+
+  .gallery-card > .card {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .btn-circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    margin: 0 10px 10px 0;
+  }
+  .btn-circle > img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .esc-guide {
+    color: #ccc;
+    top: 103%;
+    left: 16%;
+  }
+  .info-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 20px auto 10px;
+  }
+  .txt-box {
+    padding: 0 20px;
+  }
+  .txt-box > .tag {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  .txt-box > .prompt {
+    font-size: 0.75rem;
+    color: #aaa;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  .card-info > .btn-circle {
+    margin: 0 10px 10px 0;
+  }
+}
