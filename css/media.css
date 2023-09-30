@@ -314,7 +314,7 @@
 
   .gallery-card {
     /* position: absolute; */
-    top: 100vh;
+    top: 120vh;
   }
   .overay {
     background-color: rgba(0, 0, 0, 0.7);
