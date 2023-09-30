@@ -39,7 +39,7 @@
 
 #gallery {
   width: 100vw;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   position: absolute;
   z-index: 2;
   background-color: #0a0a0a;

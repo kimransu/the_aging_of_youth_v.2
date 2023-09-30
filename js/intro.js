@@ -17,6 +17,15 @@ const DISPLAY_NONE = 'd-none';
 
 const speed = 100;
 
+//뷰포트 크기가져오기
+function setScreenSize() {
+  let vh = window.innerHeight * 0.01;
+
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+setScreenSize();
+
 // 이미지 이름 뒤에 붙은 숫자를 저장하는 배열
 const imageIdxList = [];
 

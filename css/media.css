@@ -304,4 +304,9 @@
   #scrollWrap.scroll-wrap-show {
     display: block !important;
   }
+
+  .gallery-card {
+    position: absolute;
+    top: 200;
+  }
 }

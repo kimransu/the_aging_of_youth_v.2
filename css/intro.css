@@ -38,7 +38,7 @@
     display: none;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     position: relative;
     z-index: 1;
   }
@@ -54,7 +54,7 @@
 }
 #main {
   width: 100vw;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   position: relative;
   /* background-size: cover; */
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@
 
 #blackFilter {
   width: 100vw;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background-color: rgb(10, 10, 10, 0.7);
   display: grid;
   place-items: center;
