@@ -313,9 +313,10 @@
   }
 
   .gallery-card {
-    position: absolute;
+    /* position: absolute; */
+    top: 200;
   }
-  .overay {
+  /* .overay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -326,5 +327,5 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(3px);
     z-index: 1;
-  }
+  } */
 }
