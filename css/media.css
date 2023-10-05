@@ -227,13 +227,13 @@
 
   #aboutContents {
     width: 87%;
-    margin: 18rem auto 0;
+    margin: 14rem auto 0;
     /* background-color: red; */
   }
 
   #aboutTitle {
     /* font-size: 5.75rem; */
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #aboutTxt {
@@ -318,5 +318,9 @@
   }
   .overay {
     background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .esc-show {
+    display: none;
   }
 }
