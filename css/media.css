@@ -227,13 +227,13 @@
 
   #aboutContents {
     width: 87%;
-    margin: 14rem auto 0;
+    margin: 13rem auto 0;
     /* background-color: red; */
   }
 
   #aboutTitle {
     /* font-size: 5.75rem; */
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 
   #aboutTxt {
