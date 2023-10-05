@@ -227,7 +227,7 @@
 
   #aboutContents {
     width: 87%;
-    margin: 13rem auto 0;
+    margin: 12rem auto 0;
     /* background-color: red; */
   }
 
@@ -240,7 +240,7 @@
     font-size: 1rem;
     line-height: 1.8rem;
     text-align: left;
-    margin: 1rem 0 4rem;
+    margin: 1.5rem 0 3rem;
   }
 
   #smallTxtBox {
