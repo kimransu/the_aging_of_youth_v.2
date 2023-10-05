@@ -28,13 +28,13 @@
 
 .nav-menu {
   color: rgb(200, 200, 200, 0.5);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .selected {
   color: rgb(200, 200, 200, 1) !important;
   font-weight: 500 !important;
-  /* transition: all 200ms; */
+  transition: color 1000ms ease;
 }
 
 #gallery {

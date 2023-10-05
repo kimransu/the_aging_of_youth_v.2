@@ -24,7 +24,7 @@
   font-size: 5.75rem;
   text-align: center;
   font-family: 'Pretendard';
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #aboutTxt {
@@ -34,7 +34,7 @@
   margin: 3rem 0 8rem;
   text-align: center;
   font-family: 'Pretendard';
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -0.03rem;
 }
 
@@ -42,7 +42,7 @@
   text-align: right;
   font-size: 1.125rem;
   font-weight: 200;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.02rem;
   line-height: 150%;
   color: #999;
   font-family: 'Pretendard';
