@@ -1,21 +1,22 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Pretendard, 'Noto Sans KR', sans-serif;
 }
 
-@font-face {
-  font-family: 'Pretendard-Regular';
+/* @font-face {
+  font-family: 'Pretendard';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
     format('woff');
   font-weight: 400;
   font-style: normal;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Pretendard';
   src: url('../font/Pretendard-Regular.woff') format('woff');
   font-weight: 400;
-}
+} */
 
 body {
   background-color: #0a0a0a;
@@ -24,8 +25,7 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   place-items: center;
   overflow-x: hidden;
-  font-family: 'Pretendard', 'Pretendard-Regular', 'sans-serif', 'arial',
-    '맑은고딕';
+  /* font-family: 'Pretendard', 'sans-serif', 'arial', '맑은고딕'; */
 }
 
 .font-3rem {
